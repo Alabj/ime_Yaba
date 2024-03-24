@@ -74,16 +74,9 @@ if(isset($_POST['submit'])){
 </div> -->
 
 <div class="login-container">
-        <img src="./code.pic/Yaba_logo_3.png" alt="" style="width: 10rem; margin-left: 37rem;">
+        <img src="./css/codepic/Yaba_logo_3.png" alt="" style="width: 8rem; margin-left: 39rem;">
         <div class="Login-subDiv">
             <form action="" method="post">
-            <?php
-               if(isset($error)){
-                  foreach($error as $error){
-                     echo '<span class="error-msg">'.$error.'</span>';
-                  };
-               };
-               ?>
                 <h3 id="login-h3" style="color: green; font-size: 2rem; margin-top: 20px;" >Login</h3>
                 <input type="email" name="email" required placeholder="Enter Email">
                 <input type="password" name="password" required placeholder="Enter Password">

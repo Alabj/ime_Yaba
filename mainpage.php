@@ -24,7 +24,7 @@ if(!isset($_SESSION[''])){
 </head>
 <body>
    
-<div class="container">
+<!-- <div class="container">
 
    <div class="content">
       <h3>HI, <span>DOCTOR/NURSE/PHARMACIST</span></h3>
@@ -43,69 +43,50 @@ if(!isset($_SESSION[''])){
    </div>
 
 
-</div>
+</div> -->
+
+<div class="" >
 
 <div class="div-form-side">
-       
-       <div class="mainpage-sideNav" style="width: 20%; background-image: url(./code.pic/Frame.png);">
-         <img src="./code.pic/Yaba_logo_2.jpeg" alt="" style="width: 16rem;">
-           <Tooltip content="Hello world! anchorId=.me" />
-           <div class="mainpage-sideNav-p" >
-             <p class=" ">Home</p>
-           </div>
-           <div class="mainpage-sideNav-p">
-             <p><a href="vitals.php" class="btn">Vitals Check</a></p>
-           </div>
-           <div class="mainpage-sideNav-p">
-             <p class=""> <a href="confirmation.php" class="">Appointments Confirmation</a></p>
-           </div>
-           <div class="mainpage-sideNav-p">
-             <p class=""> 
-               <a href="prescription.php" class="btn">Pharmacist Prescription</a>
-            </p>
-           </div>
-           <div class="mainpage-sideNav-p" style="margin-top: 120px;">
-             <span>
-               <RxExit />
-             </span>
-             <p class="">
-             <a href="logout.php" class="btn">logout</a>
-             </p>
-           </div>
-         </div>
-   <div class="" style=" width: 80%;">
-       <div class="">
-           <div class=" " style="display: flex; justify-content: end; align-items: center; gap: 20px; padding:12px ;">
-             <div class="">
-               <CiSearch class="text-gray-700  " />
-               <input
-                 type="search"
-                 class=""
-                 placeholder="search"
-                 style="border: 2px solid black; padding: 5px; border-radius: 7%;"
-               />
-             </div>
-             <div class="" style="display: flex; gap: 10px; align-items: center;">
-               <div class="">
-                 <p class="text-md">YABA COLLEGE OF TECHNOLOGY</p>
-                 
-               </div>
-               <div class="">
-                 <img
-                   src='./code.pic/Yaba_logo_3.png'
-                   alt=""
-                   class=" "
-                   style="width: 50px;"
-                 />
-               </div>
-             </div>
-           </div>
-         </div>
-       <div class="mainpage-subDiv" style="height: 565px;">
-         <h3 class="mainpage-h3">HI, <span class="mainpage-h3" style="color: rgb(0,128,0);"> DOCTORS/NURSES/PHARMASICT</span></h3>
-         <h3 class="mainpage-h3">WELCOME BACK TO YOUR DASHBOARD</h3>
-       </div>
-   </div>
+
+  <div class="mainpage-sideNav" style="width: 20%; background-image: url(./code.pic/Frame.png);">
+    <img src="./css/codepic/Yaba_logo_2.jpeg" alt="" style="width: 16rem;">
+      <Tooltip content="Hello world! anchorId=.me" />
+      <div class="mainpage-sideNav-p" >
+        <p class=" "><a href="index.php">Home</a></p>
+      </div>
+      <div class="mainpage-sideNav-p">
+        <p><a href="vitals.php" class="">Vitals Check</a></p>
+      </div>
+      <div class="mainpage-sideNav-p">
+        <p class=""> <a href="confirmation.php" class="">Appointments Confirmation</a></p>
+      </div>
+      <div class="mainpage-sideNav-p">
+        <p class=""> 
+          <a href="prescription.php" class="">Pharmacist Prescription</a>
+       </p>
+      </div>
+      <div class="mainpage-sideNav-p" style="margin-top: 120px;">
+        <span>
+          <RxExit />
+        </span>
+        <p class="">
+        <a href="logout.php" class="">logout</a>
+        </p>
+      </div>
+    </div>
+<div class="" style="width: 80%;">
+          <nav class="" style="display: flex; padding: 5px;   background-color: rgb(63, 225, 0);">
+            <div class="">
+              <img src="./css/codepic/109879063-user-avatar-icon-sign-profile-symbol.jpg" alt="" class="" style="width: 4rem; border-radius: 50%; margin-left: 62rem;">
+            </div>
+        </nav>
+  <div class="mainpage-subDiv">
+    <h3 class="mainpage-h3">HI, <span class="mainpage-h3" style="color: rgb(0,128,0);"> DOCTORS/NURSES/PHARMASICT</span></h3>
+    <h3 class="mainpage-h3">WELCOME BACK TO YOUR DASHBOARD</h3>
+  </div>
+</div>
+</div>
 </div>
 
 </body>

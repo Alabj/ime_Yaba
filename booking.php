@@ -82,37 +82,34 @@ if(isset($_POST['submit'])){
 
 <div class="bookingForm-container">
         <div class="booking-container">
-            <div class="" style="background-color: rgb(141,218,170); padding: 30px;">
-                <img src="./code.pic/Yaba_logo_3.png" alt="" style="width: 10rem; margin-top: 120px;">
+            <div class="" style="background-color: rgb(141,218,170) ; padding: 20px;">
+                <img src="./css/codepic/Yaba_logo_3.png" alt="" style="width: 10rem; margin-top: 90px;">
             </div>
             <div class="booking-container-form">
                 <form action="" method="post">
-                <?php
-                     if(isset($error)){
-                        foreach($error as $error){
-                           echo '<span class="error-msg">'.$error.'</span>';
-                        };
-                     };
-                     ?>
                     <h3>Booking/appointment form</h3>
                         <div class="booking-container-form-div">
-                            <input type="text" name="name" required placeholder="Enter Name">
-                            <input type="email" name="email" required placeholder="Enter Email">
+                            <input type="text" name="name" required placeholder="Enter Name" class="booking-container-form-input">
+                            <input type="email" name="email" required placeholder="Enter Email" class="booking-container-form-input">
                         </div>
                         <div class="booking-container-form-div">
-                            <select name="designation_type">
+                            <input type="text" placeholder="Student Id or Staff Number" class="booking-container-form-input">
+                            <!-- <select name="designation_type">
                                 <option value="student">Student</option>
                                 <option value="staff">Staff</option>
-                             </select>
-                             <input type="text" name="rfa" required placeholder="Reason For Appointment">
+                             </select> -->
+                             <input type="text" name="past_illness" required placeholder="Past Illness" class="booking-container-form-input">
                         </div>
-                        <div class="booking-container-form-div">
-                            <input type="text" name="past_illness" required placeholder="Past Illness">
-                            <input type="text" name="cci" required placeholder="Current Clinical Issues">
+                        <div class="" style="margin-top: 20px; margin-right: 27rem;">
+                            <p>Date of Appointment</p>
+                            <input type="date" name="past_illness" required placeholder="Past Illness" id="booking_input">
+                            
                         </div>
-                    <p>Input your Desired Date for your Appointment</p>
-                    <input type="date" name="doa" required placeholder="Date of Appointment" style="width: 80%;">
-                    <input type="submit" name="submit" value="Book Now" class="form-btn" style="width: 100%; background-color: rgb(22,156,87);">
+                            <div class="" style="margin-right: 10rem;">
+                                <p class="" style="padding: 10px;">Reason for appointment</p>
+                                <textarea name="" id="" cols="90" rows="5" style="border-radius: 5px; width: 35rem;"></textarea>
+                            </div>
+                    <input type="submit" name="submit" value="Book Now" class="booking-container-form-input" style="width: 50%; background-color: rgb(22,156,87); margin-right: 10rem; margin-top: 12px;">
                   </form>
             </div>
         </div>
